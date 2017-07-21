@@ -6778,4 +6778,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .text-navbar {
   color: #fff; }
 
+.carousel .carousel-slider {
+  height: 100vh; }
+
 /*# sourceMappingURL=main.css.map */
