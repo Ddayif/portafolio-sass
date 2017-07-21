@@ -6773,7 +6773,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   /*shape-rendering: crispEdges;*/ }
 
 * {
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Roboto Slab', serif; }
 
 body {
   padding: 0;
@@ -6807,49 +6807,54 @@ body {
     padding-top: 80px;
     font-weight: 700;
     font-size: 70px; }
-  .mi-nav p {
+  .mi-nav .parrafo-slider {
     font-size: 20px;
     font-weight: 300; }
 
 .contenedor-segunda-seccion {
+  text-align: center;
   z-index: 2;
   position: relative;
   background-color: white;
-  width: 95%;
+  width: 100%;
   top: 400px;
-  left: 33px;
+  left: 1px;
   border-radius: 7px; }
   .contenedor-segunda-seccion .texto-segunda-seccion {
-    font-size: 16px;
-    font-weight: 100;
-    padding-top: 80px;
-    margin-right: 213px;
-    margin-left: 178px;
+    font-size: 17px;
+    font-weight: 300;
+    padding-top: 8%;
+    padding-bottom: 6%;
+    margin-left: 5%;
+    margin-right: 7%;
     color: #999;
-    padding-bottom: 40px; }
+    line-height: 27.125px; }
 
 /*contenedor de iconos*/
-.contenedor-iconos {
-  margin-left: 50px;
-  margin-right: 100px; }
-  .contenedor-iconos .icono {
-    font-size: 61.1px;
-    color: #e91e63;
-    margin-left: 160px; }
-  .contenedor-iconos h4 {
-    font-size: 18px;
-    font-weight: 700;
-    margin-left: 140px; }
-  .contenedor-iconos .texto-icono {
-    padding: 16px;
-    font-size: 16px;
-    color: #999; }
-  .contenedor-iconos .segundo-icono {
-    color: #00bcd4; }
-  .contenedor-iconos .titulo-segundo-icono {
-    margin-left: 160px; }
-  .contenedor-iconos .tercer-icono {
-    color: #4caf50;
-    margin-left: 140px; }
+.contenedor-iconos .icono {
+  font-size: 61.1px;
+  color: #e91e63;
+  margin-top: 25px; }
+.contenedor-iconos h4 {
+  color: #3c4858;
+  font-size: 18px;
+  font-weight: 700; }
+.contenedor-iconos .texto-primer-icono {
+  margin: 0;
+  margin-right: 31px;
+  margin-left: 46px; }
+.contenedor-iconos .texto-icono {
+  font-size: 16px;
+  font-weight: 300;
+  color: #999;
+  margin-bottom: 40px; }
+.contenedor-iconos .segundo-icono {
+  color: #00bcd4; }
+.contenedor-iconos .tercer-icono {
+  color: #4caf50; }
+.contenedor-iconos .texto-tercer-icono {
+  margin: 0;
+  margin-right: 31px;
+  margin-left: 46px; }
 
 /*# sourceMappingURL=main.css.map */
