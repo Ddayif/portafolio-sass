@@ -1,11 +1,103 @@
 *{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
-.text-navbar{
-	color: $color_text_navbar;
+body{
+	padding: 0;
+	margin: 0;
+	background-color: #dbdbdb;
 }
 
-.carousel .carousel-slider{
-	height: 100vh;
+
+
+.slider{
+	top: 0;
+	position: absolute;
+	z-index: 2;
+	.slides{
+		li{
+			height: 80vh;
+		}
+	}
+}
+
+
+.mi-nav{
+	background-color: transparent;
+	padding-top: 20px;
+	z-index: 2;
+		.brand-logo {
+			font-size: 1.1rem;
+			padding-top: 20px;
+			padding-left: 85px;  
+		}
+		.mi-btn{
+			background-color: #e91e63;
+   			width: 136px;
+    		padding-left: 12px;
+    		font-size: 11px;
+		}
+		.text-navbar{
+			color: $color_text_navbar;
+			font-size: $tamano_letra;
+		}
+		h3{
+			padding-top: 80px;
+			font-weight: 700;
+			font-size: 70px;
+		}
+		p{
+			font-size: 20px;
+			font-weight: 300;
+	}
+}
+
+.contenedor-segunda-seccion{
+    z-index: 2;
+    position: relative;
+    background-color: white;
+    width: 95%;
+    top: 400px;
+    left: 33px;
+    border-radius: 7px;
+    	.texto-segunda-seccion{
+    	    font-size: 16px;
+    		font-weight: 100;
+    		padding-top: 80px;
+    		margin-right: 213px;
+    		margin-left: 178px;
+    		color: #999;
+    		padding-bottom: 40px;
+    	}
+}
+
+/*contenedor de iconos*/
+.contenedor-iconos{
+	margin-left: 50px;
+	margin-right: 100px;
+	    	.icono{
+				font-size: 61.1px;
+				color:$color_primer_icono;
+				margin-left: 160px;
+			}
+			h4{
+				font-size: 18px;
+				font-weight: 700;
+				margin-left: 140px;
+			}
+			.texto-icono{
+				padding: 16px;
+		    	font-size: 16px;
+		    	color: $color_p;
+			}
+			.segundo-icono{
+				color: $color_segundo_icono;
+			}
+			.titulo-segundo-icono{
+				margin-left: 160px;
+			}
+			.tercer-icono{
+				color: #4caf50;
+				margin-left: 140px;
+			}
 }

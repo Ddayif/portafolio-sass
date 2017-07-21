@@ -1,58 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Portafolio Sass</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link rel="shortcut icon" type="image/png" href="img/logo_new.png" />
-    <link rel="stylesheet" href="assets/css/main.css">
+  <meta charset="UTF-8">
+  <title>Portafolio Sass</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="shortcut icon" type="image/png" href="img/logo_new.png" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body> 
 
 <!-- comienzo navbar -->
-  	<ul id="dropdown1" class="dropdown-content">
-	    <li><a href="#!">1 minute setup</a></li>
-	    <li><a href="#!">two</a></li>
-	    <li class="divider"></li>
-	    <li><a href="#!">three</a></li>
-  	</ul>
-  	<ul id="dropdown2" class="dropdown-content">
-	    <li><a href="#!">1 minute setup</a></li>
-	    <li><a href="#!">two</a></li>
-	    <li class="divider"></li>
-	    <li><a href="#!">three</a></li>
-  	</ul>
-  	<nav>
-	    <div class="navbar-fixed">
-	      	<a href="#!" class="brand-logo">Hestia Pro</a>
-	      	<ul class="right hide-on-med-and-down">
-			    <li><a class="dropdown-button text-navbar" href="#!" data-activates="dropdown1"><i class="material-icons left">cloud</i>FEATURES<i class="material-icons right">arrow_drop_down</i></a></li>
-			    <li><a class="dropdown-button text-navbar" href="#!" data-activates="dropdown2"><i class="material-icons left">list</i>SECTIONS<i class="material-icons right">arrow_drop_down</i></a></li>
-			    <li><a class="text-navbar" href="https://themeisle.com/demo/?theme=Hestia%20ProTF#"><i class="material-icons left">shopping_basket</i>SHOP</a></li>
-			    <li><a class="text-navbar" href="badges.html"><i class="material-icons left">description</i>BLOG</a></li>
-			    <li><a class="text-navbar" href="badges.html"><i class="material-icons left">email</i>CONTACT</a></li>
-	       <a class="waves-effect waves-red btn-large"><i class="material-icons left">shopping_cart</i>BUY NOW</a>     
-	     </ul>
-	   </div>
+  <ul id="dropdown1" class="dropdown-content">
+    <li><a href="#!">1 minute setup</a></li>
+    <li><a href="#!">two</a></li>
+    <li class="divider"></li>
+    <li><a href="#!">three</a></li>
+  </ul>
+  <ul id="dropdown2" class="dropdown-content">
+    <li><a href="#!">1 minute setup</a></li>
+    <li><a href="#!">two</a></li>
+    <li class="divider"></li>
+    <li><a href="#!">three</a></li>
+  </ul>
+  <nav class="mi-nav">
+    <div class="navbar-fixed">
+      <a href="#!" class="brand-logo">Hestia Pro</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a class="dropdown-button text-navbar" href="#!" data-activates="dropdown1"><i class="material-icons left">cloud</i>FEATURES<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a class="dropdown-button text-navbar" href="#!" data-activates="dropdown2"><i class="material-icons left">list</i>SECTIONS<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a class="text-navbar" href="https://themeisle.com/demo/?theme=Hestia%20ProTF#"><i class="material-icons left">shopping_basket</i>SHOP</a></li>
+        <li><a class="text-navbar" href="badges.html"><i class="material-icons left">description</i>BLOG</a></li>
+        <li><a class="text-navbar" href="badges.html"><i class="material-icons left">email</i>CONTACT</a></li>
+        <a class="waves-effect waves-light btn mi-btn"><i class="material-icons left">shopping_cart</i>BUY NOW</a>     
+      </ul>
+    </div>
+
+<!-- inicio carrusel -->
+    <div class="slider">
+      <ul class="slides">
+        <li>
+          <img src="img/img_slider_1.jpg" class="img-slide"> <!-- random image -->
+          <div class="caption center-align">
+            <h3>Simple & Awesome</h3>
+            <p>Beatiful, elegantly coded</p>
+            <a class="btn waves-effect pink white-text darken-text-2">SEE MORE</a>
+          </div>
+        </li>
+        <li>
+          <img src="img/img_slider_2.jpg" class="img-slide"> <!-- random image -->
+          <div class="caption center-align">
+            <h3>Slick Material Design</h3>
+            <p>Beatiful, Elegantly coded, One paged Wordpress Theme for Business</p>
+            <a class="btn waves-effect pink white-text darken-text-2">SEE MORE</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <section>
+    <div class="container-fluid contenedor-segunda-seccion">
+      <div class="row">
+        <div class="col s12 m10 offset-m1">
+          <h5 class="center-align texto-segunda-seccion">Nullam blandit gravida viverra. Etiam turpis erat, sagittis sit amet felis non, porta porta justo. Integer ornare nibh nulla, id pulvinar metus cursus semper. Vivamus dictum pellentesque mi. Vivamus ipsum tellus, mattis non ex sed, semper sodales ligula. Vivamus luctus lorem.</h5>
+        </div>
+      </div>
+      <div class="contenedor-iconos">
+        <div class="row">
+          <div class="col m4 s12">
+            <i class="fa fa-th icono"></i>
+            <h4>Responsive</h4>
+            <p class="texto-icono center-align">Lorem ipsum dolor sit amet elit do, consectetur adipiscing, sed eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+          <div class="col m4 s12">
+            <i class="fa fa-th-list icono segundo-icono"></i>
+            <h4 class="titulo-segundo-icono">Quality</h4>
+            <p class="texto-icono center-align">Lorem ipsum dolor sit amet elit do, consectetur adipiscing, sed eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+          <div class="col m4 s12">
+            <i class="fa fa-reorder icono tercer-icono"></i>
+            <h4>Support</h4>
+            <p class="texto-icono center-align">Lorem ipsum dolor sit amet elit do, consectetur adipiscing, sed eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+      </div> 
+    </div>
+  </section>
 
 
-	   <!-- inicio carrusel -->
-		<div class="carousel carousel-slider">
-		    <a class="carousel-item" href="#one!"><img src="img/img_slider_1.jpg"></a>
-		    <a class="carousel-item" href="#two!"><img src="img/img_slider_2.jpg"></a>
-		</div>
-
-		<!-- termino carrusel -->
-	</nav>
-	<!-- termino segundo navbar -->
-
-<script
-  src="https://code.jquery.com/jquery-3.2.1.js"
-  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
-  crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
