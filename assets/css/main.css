@@ -6906,4 +6906,11 @@ body {
   width: 100%;
   height: 100%; }
 
+h5 {
+  margin-bottom: 15px;
+  font-size: 17.5px;
+  line-height: 27.125px;
+  color: #999;
+  font-weight: 300; }
+
 /*# sourceMappingURL=main.css.map */

@@ -68,7 +68,7 @@ body{
     		padding-bottom: 6%;
     		margin-left: 5%;
     		margin-right: 7%;
-    		color: #999;
+    		color: $color_letras;
     		line-height: 27.125px; 	
     	}
 }
@@ -96,7 +96,7 @@ body{
 			.texto-icono{
 		        font-size: 16px;
 		        font-weight: 300;
-    			color: #999;
+    			color: $color_letras;
     			margin-bottom: 40px;
 			}
 			.segundo-icono{
@@ -170,4 +170,13 @@ body{
 .videito{
 	width: 100%;
 	height: 100%;
+}
+
+
+h5{
+	margin-bottom: 15px;
+    font-size: 17.5px;
+    line-height: 27.125px;
+    color: $color_letras;
+    font-weight: 300;
 }
