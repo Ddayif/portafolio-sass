@@ -164,9 +164,7 @@ body{
     width: 73%;
     height: 64vh;
 }
-
-
-    
+  
 .videito{
 	width: 100%;
 	height: 100%;
@@ -176,7 +174,7 @@ body{
 	text-align: center;
     z-index: 2;
     position: relative;
-    background-color: white;
+    background-color: #f0f0f0;
     width: 100%;
     top: 685px;
     left: 1px;
@@ -188,4 +186,32 @@ h5{
     line-height: 27.125px;
     color: $color_letras;
     font-weight: 300;
+}
+
+/*seccion portafolio*/
+.contenedor-cuarta-seccion{
+	background-color: white;
+	text-align: center;
+    z-index: 2;
+    position: relative;
+    width: 100%;
+    top: 665px;
+    left: 1px;
+    	.portafolio{
+    		padding: 38px;
+    		margin: -20px;
+    		margin-top: 30px;
+    			.img-portafolio{
+    				width: 94%;
+    				height: 223px;
+    				border-radius: 7px;
+				}
+				.img-medio{
+					border-radius: 7px;
+					width: 92%;
+    				height: 205px;
+				}
+    	}
+    	
+    	
 }

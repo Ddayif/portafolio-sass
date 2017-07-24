@@ -6910,7 +6910,7 @@ body {
   text-align: center;
   z-index: 2;
   position: relative;
-  background-color: white;
+  background-color: #f0f0f0;
   width: 100%;
   top: 685px;
   left: 1px; }
@@ -6921,5 +6921,27 @@ h5 {
   line-height: 27.125px;
   color: #999;
   font-weight: 300; }
+
+/*seccion portafolio*/
+.contenedor-cuarta-seccion {
+  background-color: white;
+  text-align: center;
+  z-index: 2;
+  position: relative;
+  width: 100%;
+  top: 665px;
+  left: 1px; }
+  .contenedor-cuarta-seccion .portafolio {
+    padding: 38px;
+    margin: -20px;
+    margin-top: 30px; }
+    .contenedor-cuarta-seccion .portafolio .img-portafolio {
+      width: 94%;
+      height: 223px;
+      border-radius: 7px; }
+    .contenedor-cuarta-seccion .portafolio .img-medio {
+      border-radius: 7px;
+      width: 92%;
+      height: 205px; }
 
 /*# sourceMappingURL=main.css.map */
